@@ -2,7 +2,7 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+UUID=${UUID:-'122b8656-0563-4677-9ed2-c47576d51f88'}
 
 generate_config() {
   cat > config.json << EOF
@@ -89,7 +89,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":flase,
                 "destOverride":[
                     "http",
                     "tls"
@@ -116,7 +116,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":flase,
                 "destOverride":[
                     "http",
                     "tls"
@@ -143,7 +143,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":flase,
                 "destOverride":[
                     "http",
                     "tls"
@@ -171,7 +171,7 @@ generate_config() {
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":flase,
                 "destOverride":[
                     "http",
                     "tls"
